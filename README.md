@@ -51,7 +51,8 @@ Untuk menerapkan smart contract dengan detail token yang dihasilkan secara acak
 node main.js
 ```
 - Masukan Jumlah Transaksi
-- Otomatis akan membuat ERC20 dari data token.json
+- Otomatis akan membuat ERC20 dari data `token.json`
+- Data ERC20 akan dipilih secara acak atau random.
 
 ### GIVE ME A START
 
