@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+const chalk = require('chalk')
 
 function log(status, message) {
     const options = { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
@@ -22,4 +22,4 @@ function log(status, message) {
     }
 }
 
-export { log };
+module.exports = { log };

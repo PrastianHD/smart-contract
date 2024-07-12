@@ -1,7 +1,7 @@
 // name.js
-import chalk from 'chalk';
+const chalk = require('chalk')
 
-export function printName() {
+function printName() {
     console.log(chalk.blueBright(`
     +==============================================================+                                 
     =              ${chalk.yellowBright('Tools Create Smart Contract ERC20')}              =
@@ -10,3 +10,4 @@ export function printName() {
     +==============================================================+
     `));
 }
+module.exports = { printName };
