@@ -1,6 +1,6 @@
 {
   "Sepolia": {
-    "RPC_URL": "https://1rpc.io/sepolia",
+    "RPC_URL": "https://ethereum-sepolia-rpc.publicnode.com",
     "CHAIN_ID": "11155111"
   },
   "Base Sepolia": {
@@ -10,5 +10,14 @@
   "Base Mainnet": {
     "RPC_URL": "https://mainnet.base.org/",
     "CHAIN_ID": "8453"
+  },
+  "Units Testnet": {
+    "RPC_URL": "https://rpc-testnet.unit0.dev",
+    "CHAIN_ID": "88817"
+  },
+  "Celo Dango Testnet": {
+    "RPC_URL": "https://forno.dango.celo-testnet.org/",
+    "CHAIN_ID": "44787",
+    "WETH_ADDRESS": null
   }
 }
