@@ -1,61 +1,60 @@
 # TOOLS FOR DEPLOYING SMART CONTRACTS
 ![logo](./utils/smart-contract.png)
-## Deskripsi
-Script ini dirancang untuk membuat atau menerapkan smart contract ERC20. Script ini mencerminkan proses pembuatan smart contract di RemixIDE, menyediakan metode yang mudah untuk menerapkan token ERC20 di jaringan yang kompatibel dengan EVM.
+## Description
+This script is designed to create or deploy ERC20 smart contracts. It mirrors the smart contract creation process in RemixIDE, providing an easy method to deploy ERC20 tokens on EVM-compatible networks.
 
-## Persiapan
-Pastikan Anda sudah menginstal NodeJS. Jika belum, Anda bisa menginstalnya [install disini](https://nodejs.org/en/download/package-manager/current)
+## Preparation
+Make sure you have NodeJS installed. If not, you can install it [install here](https://nodejs.org/en/download/package-manager/current)
 
-## Fitur
-- **Fungsionalitas**: Menerapkan Smart Contract ERC20.
-- **Dukungan Jaringan**: Kompatibel dengan semua jaringan EVM, termasuk Testnet dan Mainnet. Jika anda ingin menambahkan Jaringan EVM tinggal masukan saja RPC dan CHAIN-ID
-- **Dukungan Wallet**: Mendukung beberapa dompet.
-- **Pilihan Alat**:
-  1. `index.js` untuk data ERC20 yang disesuaikan.
-  2. `main.js` untuk data ERC20 acak.
+## Features
+- **Functionality**: Deploy ERC20 Smart Contracts.
+- **Network Support**: Compatible with all EVM networks, including Testnet and Mainnet. If you want to add an EVM Network, just enter the RPC and CHAIN-ID
+- **Wallet Support**: Supports multiple wallets.
+- **Tool Options**:
+1. `index.js` for customized ERC20 data.
+2. `main.js` for random ERC20 data.
 
-## Instalasi
+## Installation
 ### Clone Repository
-Pertama, clone repository :
+First, clone the repository:
 ```
 git clone https://github.com/PrastianHD/smart-contract.git
 cd smart-contract
 ```
 
-### Instal Dependensi
-Selanjutnya, instal dependensi yang diperlukan:
+### Install Dependencies
+Next, install the required dependencies:
 ```
 npm install
 ```
 
-### Konfigurasi Private Key
-Buat file .env di direktori root proyek:
+### Private Key Configuration
+Create a .env file in the project root directory:
 ```
 PRIVATE_KEY=["your_private_key", "your_private_key"]
 ```
-Ganti `"your_private_key"` dengan kunci pribadi Anda yang sebenarnya.
+Replace `"your_private_key"` with your actual private key.
 
-### Menjalankan Script
-### Mode 1: Sesuaikan Token ERC20
-Untuk menerapkan smart contract dengan detail token khusus, jalankan:
+### Running the Script
+### Mode 1: Customize ERC20 Token
+To deploy a smart contract with custom token details, run:
 ```
 node index.js
 ```
-- Masukan Nama Token
-- Masukan Symbol Token
-- Masukan Total Supply
-  
-### Mode 2: Token ERC20 Acak
-Untuk menerapkan smart contract dengan detail token yang dihasilkan secara acak
+- Enter Token Name
+- Enter Token Symbol
+- Enter Total Supply
+
+### Mode 2: Random ERC20 Token
+To deploy a smart contract with randomly generated token details
 ```
 node main.js
 ```
-- Masukan Jumlah Transaksi
-- Otomatis akan membuat ERC20 dari data `token.json`
-- Data ERC20 akan dipilih secara acak atau random.
+- Enter Transaction Amount
+- Automatically create ERC20 from `token.json` data
+- ERC20 data will be selected randomly.
 
 ### GIVE ME A START
 
-- Jangan Lupa Klik `STAR` pada reposity ini
-- Jangan Lupa `FORK` Reposity ini
-
+- Don't Forget to Click `STAR` on this reposity
+- Don't Forget to `FORK` this Reposity
